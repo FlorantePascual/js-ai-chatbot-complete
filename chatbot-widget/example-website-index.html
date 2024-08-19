@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Start of embed code snippet -->
+    <script src="./dist/ChatComponent.bundle.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Initialize the Chat component
+            const options = {
+                initialGreeting: [
+                    `<p>Greetings and a Happy Summer of 2024 from Canada!</p>`,
+                    `<p>How can I help you today?</p>`,
+                ],
+            }
+            if (window.ChatComponent) {
+                ChatComponent.init(options);
+            } else {
+                console.error('ChatComponent is not available');
+            }
+        });
+    </script>
+    <!-- /End of embed code snippet -->
+
+</head>
+
+<body style="font-family: 'Montserrat', sans-serif;">
+    <h1>WELCOME TO</h1>
+    <h2>An Excellent Coding Adventure</h2>
+    <p>Build your AI Chatbot from scratch!</p>
+</body>
+
+</html>
