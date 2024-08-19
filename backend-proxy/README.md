@@ -28,11 +28,11 @@ To install and set up the project, follow these steps:
 1. Clone the repository if you haven't done so already:
 
     ```sh
-    git clone https://github.com/FlorantePascual/js-ai-chetbot-complete.git
+    git clone https://github.com/FlorantePascual/js-ai-chatbot-complete.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd js-ai-chetbot-complete/backend-proxy
+    cd js-ai-chatbot-complete/backend-proxy
     ```
 
 3. Install the dependencies:
