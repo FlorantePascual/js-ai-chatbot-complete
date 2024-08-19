@@ -32,7 +32,7 @@ Best of all, you never have to
 
 Clone the repository:
 ```bash
-git clone https://github.com/FlorantePascual/js-ai-chetbot-complete.git
+git clone https://github.com/FlorantePascual/js-ai-chatbot-complete.git
 ```
 
 Refer to each corresponding folder's `README.md` for running them locally on your machine.
