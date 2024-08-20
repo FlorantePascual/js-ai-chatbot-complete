@@ -32,7 +32,7 @@ let OpenAiController = class OpenAiController {
         res.setHeader('Content-Type', 'text/event-stream');
         res.setHeader('Cache-Control', 'no-cache');
         res.setHeader('Connection', 'keep-alive');
-        const fullHost = req.headers.origin;
+        const fullHost = req.headers.origin || req.headers.referer || 'http://localhost';
         const hostName = new URL(fullHost).hostname;
         if (this.isLogging)
             this.logger.log({ hostName });
