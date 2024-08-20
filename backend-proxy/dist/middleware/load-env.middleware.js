@@ -13,7 +13,7 @@ let LoadEnvMiddleware = class LoadEnvMiddleware {
         this.logger = new common_1.Logger('LoadEnvMiddleware');
     }
     use(req, res, next) {
-        const fullHost = req.headers.origin || req.headers.referer;
+        const fullHost = req.headers.origin || req.headers.referer || 'http://localhost';
         let hostName = '';
         try {
             hostName = new URL(fullHost).hostname;

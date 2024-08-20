@@ -22,7 +22,7 @@ let OpenAiController = class OpenAiController {
         this.isLogging = false;
     }
     createThread(req) {
-        const fullHost = req.headers.origin;
+        const fullHost = req.headers.origin || req.headers.referer || 'http://localhost';
         const hostName = new URL(fullHost).hostname;
         if (this.isLogging)
             this.logger.log({ hostName });
