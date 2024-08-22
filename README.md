@@ -2,6 +2,8 @@
 
 **js-ai-chatbot-complete** is the polished version of [`js-ai-chatbot`](https://github.com/FlorantePascual/js-ai-chatbot) that is production-ready and supports event streaming from OpenAI's Assistants API through a backend proxy.
 
+[![AI Chatbot Solution in 10 Minutes](https://img.youtube.com/vi/kHRNb5TFvpw/0.jpg)](https://www.youtube.com/watch?v=kHRNb5TFvpw)
+
 This repo is intended for testing the features locally and can be customized and implemented into production by reaching out to us.
 
 The files that you will need for testing are located in each component's `dist/` folder.
